@@ -1,0 +1,283 @@
+*{
+    font-family: sans-serif;
+    
+}
+body {
+    background-color: black;
+    margin-left: 5px;
+}
+
+#head {
+    background-color: #333;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: -18px;
+
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+#nav-bar > li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font: bold;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.topnav-right {
+    float: right;
+}
+
+#find {
+    padding: 10px;
+    padding-right: 80px;
+    font-size: large;
+    background-color: grey;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.button {
+    height: 20px;
+    color: white;
+    padding-right: 5px;
+}
+
+#promo {
+    background-color: rgb(226, 226, 152);
+    margin-left: 25%;
+    margin-top: 0px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-right-color: rgb(249, 201, 79);
+    border-left-color: rgb(249, 201, 79);
+    border-bottom-color: rgb(249, 201, 79);
+    font-size: x-large;
+    position: relative;
+    font-family: sans-serif;
+    top: 0px;
+    z-index: 2;
+}
+
+.more {
+    font-size: medium;
+}
+
+#intro {
+    padding-left: 20px;
+    height: 20%;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+.selfMe {
+    background-color: white;
+    margin-left: 20px;
+}
+
+.Me {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: -18px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.top {
+    font-size: xx-large;
+    font-family:  sans-serif;
+}
+
+#name {
+    font-size: xx-large;
+    padding-bottom: -10px;
+}
+
+#para {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#install {
+    border: 1px solid #000;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 10px;
+    width: 200px;
+    font-size: large;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    /* margin-top: 10%; */
+}
+
+#install:hover {
+    box-shadow: 0px 0px 15px 5px grey;
+}
+
+#inspect {
+    border: 2px solid blue;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 10px;
+    width: 180px;
+    font-size: large;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#inspect:hover {
+    box-shadow: 0px 0px 15px 5px grey;
+}
+
+.image {
+    /* width: 35%;
+    position: absolute;
+    margin-top: 0px;
+    top: 116%;
+    left: 60%; */
+    width: 39%;
+    position: absolute;
+    margin-top: 0px;
+    top: 115%;
+    left: 56%;
+}
+
+#Suitable {
+    background-color: whitesmoke;
+    text-align: center;
+    color: #000;
+    width: 80%;
+    border-radius: 10px;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+#line {
+    margin-top: -10px;
+}
+#front {
+    text-align: center;
+    padding-top: -5px;
+    padding-bottom: 10px;
+}
+#expert{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif ;
+}
+.expert1{
+    background-color: whitesmoke;
+    width: 80%;
+    border-radius: 10px;
+    display: flex ;
+}
+#cd-img{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 30%;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+#front1{
+    font-size: x-large;
+    padding-left: 20px;
+}
+#tech{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif ;
+    flex: 1;
+}
+
+#soft{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif ;
+}
+.list{
+    background-color: whitesmoke;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    padding: 40px;
+}
+#projects{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif ;
+}
+.b1{
+    background-color: whitesmoke;
+    width: 320px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    
+}
+#img1{
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+#btn1{
+    width: 320px;
+    font-size: large;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: gray;
+}
+#box1{
+    margin: 10px;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: auto; 
+    max-width:100%;
+    scrollbar-width:none;
+}
+#btn2{
+    border-radius: 50px;
+    margin-left: 50%;
+    width: 25px;
+    /* justify-content: center; */
+    /* padding-left: 48%; */
+}
+#education{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif ;
+    display: flex;
+}
