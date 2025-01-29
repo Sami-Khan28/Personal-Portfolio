@@ -22,7 +22,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    /* background-color: #333; */
+    
 }
 
 #nav-bar > li {
@@ -91,7 +91,7 @@ li a {
     z-index: 1;
 }
 
-.selfMe {
+#about {
     background-color: white;
     margin-left: 20px;
 }
@@ -130,7 +130,7 @@ li a {
     background-color: blue;
     border-radius: 5px;
     margin-bottom: 5%;
-    /* margin-top: 10%; */
+    
 }
 
 #install:hover {
@@ -153,11 +153,7 @@ li a {
 }
 
 .image {
-    /* width: 35%;
-    position: absolute;
-    margin-top: 0px;
-    top: 116%;
-    left: 60%; */
+    
     width: 39%;
     position: absolute;
     margin-top: 0px;
@@ -281,23 +277,7 @@ li a {
     font-family: sans-serif ;
     display: flex;
 }
-/* .circle{
-    position: absolute;
-    border-radius: 50%;
-    background-color: #000;
-    height: 18px;
-    width: 18px;
-    left: 9%; */
-    /* margin-top: -73px; */
-/* }
-.line{
-    position: absolute;
-    background-color: #000;
-    height: 70px;
-    width:5px;
-    left:9.4% ;
-    margin-top:-66px ;
-} */
+
 #qualification{
     margin-left: 50px;
 }
@@ -367,7 +347,7 @@ filter:grayscale(60%);
     text-align:center;
     margin-left: -175px;
 }
-.black-box>button{
+.black-box>#contact{
     margin-left: 570px;
     height:30px;
     width:100px;
